@@ -104,8 +104,8 @@ pmd {
 sonarRunner {
     sonarProperties {
         property "sonar.host.url", "http://ec2-54-172-94-100.compute-1.amazonaws.com:9000"
-        property "sonar.username", "admin"
-        property "sonar.password", "admin"
+        property "sonar.username", "sonaruser"
+        property "sonar.password", "picklecucumber"
         property "sonar.jdbc.url", "jdbc:mysql://http://ec2-54-172-94-100.compute-1.amazonaws.com:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
         property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
         property "sonar.jdbc.username", "sonarqube"
