@@ -36,7 +36,9 @@ jacocoTestReport {
         csv.enabled false
     }
 }
-
+jacoco {
+    toolVersion = "0.7.5.201505241946"
+}
 //testing git push hook 2
 
 // JDK version source compatibility
