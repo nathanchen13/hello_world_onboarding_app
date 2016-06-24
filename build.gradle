@@ -36,7 +36,8 @@ jacocoTestReport {
         csv.enabled false
     }
 }
-jacoco {
+
+jacoco {//specify Jacoco version that works with SonarQube
     toolVersion = "0.7.4.201502262128"
 }
 //testing git push hook 2
@@ -87,7 +88,7 @@ uploadArchives {
             }
           
             // change to point to your repo, e.g. http://my.org/repo
-            url "http://http://ec2-54-172-94-100.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots"
+            url "http://http://ec2-54-165-125-104.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots"
       }
     }
 }
